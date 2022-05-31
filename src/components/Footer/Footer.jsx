@@ -10,7 +10,7 @@ function Footer() {
           {new Date().getFullYear()}
           <a
             className="gray-text text-lighten-4 right"
-            href="https://github.com/KolEvg/React-Shop"
+            href="https://github.com/KolEvg/Fortnite-Shop"
             target="_blank"
             rel="noreferrer"
           >
