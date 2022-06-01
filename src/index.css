@@ -150,6 +150,7 @@ border-radius: 10px;
   color: #23252f;
   transition: color .5s;
   filter: hue-rotate(20deg);
+  /* color:thistle */
 }
 
 .btn:active {
