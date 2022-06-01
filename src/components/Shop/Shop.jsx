@@ -91,7 +91,9 @@ function Shop() {
   }, []);
   // console.log(order);
   return (
-    <main className="container content">git
+    <main
+      className="container content"
+    >
       <Cart quantity={order.length} handleBasketShow={handleBasketShow} />
       { loading ? <Preloader />
         : <GoodsList goods={goods} addToBasket={addToBasket} /> }
