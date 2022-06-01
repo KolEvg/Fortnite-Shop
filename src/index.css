@@ -35,6 +35,8 @@ nav {
 .card {
   display: flex;
   flex-direction: column;
+  border: 5px solid #5326a6;
+  border-radius: 10px;
 }
 
 .card-content {
