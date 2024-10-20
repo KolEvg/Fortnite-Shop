@@ -13,5 +13,3 @@ function Cart({ quantity, handleBasketShow }) {
 }
 
 export default Cart;
-
-// style={{ margin: '100px' }}
