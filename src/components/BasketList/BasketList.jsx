@@ -26,7 +26,7 @@ function BasketList({
         {' '}
         {totalPrice}
         {' '}
-        руб.
+        руб
       </li>
       <li className="collection-item">
         <button className="btn-sub btn-small">
