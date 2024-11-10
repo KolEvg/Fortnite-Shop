@@ -3,7 +3,6 @@ import BasketItem from '../BasketItem/BasketItem';
 function BasketList({
   order, handleBasketShow, removeFromBasket, incQuantity, decQuantity,
 }) {
-  // console.log(order);
   const totalPrice = order.reduce((acc, el) => acc + el.price.finalPrice * el.quantity, 0);
   return (
     <ul className="collection basket-list">
