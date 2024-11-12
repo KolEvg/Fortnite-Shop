@@ -4,6 +4,7 @@ function BasketList({
   order, handleBasketShow, removeFromBasket, incQuantity, decQuantity,
 }) {
   const totalPrice = order.reduce((acc, el) => acc + el.price.finalPrice * el.quantity, 0);
+
   return (
     <ul className="collection basket-list">
       <li className="collection-item active">Корзина</li>
