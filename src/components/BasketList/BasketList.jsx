@@ -19,7 +19,7 @@ function BasketList({
           />
         ))
       ) : (
-        <li className="collection-item">Корзина пустая</li>
+        <li className="collection-item">Корзина пустя</li>
       )}
       <li className="collection-item active">
         Общая стоимость :
